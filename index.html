@@ -4,40 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Bisness promotion</title>
-
 </head>
 <!-- body -->
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo.svg" alt="logo" />Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./resourses.html">Resourses</a></li>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" />Product</a>
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item"><a href="./index.html"
+                            class="header-nav-list-link current">Product</a>
+                    </li>
+                    <li class="header-nav-list-item"><a href="./pricing.html" class="header-nav-list-link">Pricing</a>
+                    </li>
+                    <li class="header-nav-list-item"><a href="./customers.html"
+                            class="header-nav-list-link">Customers</a>
+                    </li>
+                    <li class="header-nav-list-item"><a href="./resourses.html"
+                            class="header-nav-list-link">Resourses</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-btn-list">
+                <li class="header-btn-list-item">
+                    <button type="button" class="header-btn-list-sign-in">Sign In</button>
+                </li>
+                <li class="header-btn-list-item">
+                    <button type="button" class="header-btn-list-sign-up">Sign Up</button>
+                </li>
             </ul>
-        </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
+        </div>
     </header>
     <!-- main -->
     <main>
-        <section>
-            <h1>Work at the speedof thought</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
-                next user
-                experience.
-            </p>
-            <ul>
-                <li><button type="button">Get started</button></li>
-                <li><button type="button">Watch the Video</button></li>
-            </ul>
-            <img src="./images/hero.png" alt="hero" />
+        <section class="hero">
+            <div class="container">
+                <div class="hero-wrap">
+                    <h1 class="hero-title">Work at the speed of thought</h1>
+                    <p class="hero-title-descrp">Tools, tutorials, design and innovation experts, all in one place! The
+                        most intuitive way to imagine your next user experience.
+                    </p>
+                    <ul class="hero-btn-list">
+                        <li class=""><button type="button" class="hero-btn-get">Get started</button></li>
+                        <li class=""><button type="button" class="hero-btn-watch">Watch the Video</button></li>
+                    </ul>
+                </div>
+                <img src="./images/hero.png" alt="hero-img" width="610" />
+            </div>
         </section>
         <section>
             <h2>Product was Built Specifically for You</h2>
@@ -73,31 +97,34 @@
             </ul>
             <button type="button">SIGN UP NOW</button>
         </section>
-        <section>
-            <p>Effortless Validation for</p>
-            <h2>Management</h2>
-            <h2><span>Effortless Validation for</span>Management</h2>
-            <p>
-                The Myspace page defines the individual, his or her characteristics, traits, personal choices and the
-                overall personality of the person.
-            </p>
-            <ul>
-                <li>
-                    <h3>Accessory makers</h3>
-                    <p>
-                        While most people enjoy casino gambling, sports betting, lottery
-                        and bingo playing for the fun
-                    </p>
-                </li>
-                <li>
-                    <h3>Alterationists</h3>
-                    <p>
-                        If you are looking for a new way to promote your business that
-                        won’t cost you more money,
-                    </p>
-                </li>
-            </ul>
-            <img src="./images/management.png" alt="management" />
+        <section class="management">
+            <div class="container">
+                <p class="management-descr">Effortless Validation for</p>
+                <h2 class="management-title">Management</h2>
+                <h2><span>Effortless Validation for</span>Management</h2>
+                <p>
+                    The Myspace page defines the individual, his or her characteristics, traits, personal choices and
+                    the
+                    overall personality of the person.
+                </p>
+                <ul>
+                    <li>
+                        <h3>Accessory makers</h3>
+                        <p>
+                            While most people enjoy casino gambling, sports betting, lottery
+                            and bingo playing for the fun
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Alterationists</h3>
+                        <p>
+                            If you are looking for a new way to promote your business that
+                            won’t cost you more money,
+                        </p>
+                    </li>
+                </ul>
+                <img src="./images/management.png" alt="management" width="540" />
+            </div>
         </section>
         <section>
             <h2><span>Easier decision making for</span>Customer Support</h2>
@@ -119,7 +146,7 @@
                     <p>We track the markets daily and know where the savings are.</p>
                 </li>
             </ul>
-            <img src="./images/support.png" alt="support" />
+            <img src="./images/support.png" alt="support" width="540" />
         </section>
         <section>
             <h2><span>Optimisation for</span>Collaborative</h2>
@@ -143,33 +170,35 @@
                     </p>
                 </li>
             </ul>
-            <img src="./images/collaboration.png" alt="collaboration" />
+            <img src="./images/collaboration.png" alt="collaboration-img" width="540" />
         </section>
-        <section>
-            <h2>Quick & Easy Process</h2>
-            <p>
-                Do you require some help for your project: Conception workshop, prototyping, marketing
-                strategy, landing page, Ux/UI?
-            </p>
-            <ul>
-                <li>
-                    <img src="./images/girl.png" alt="girl" />
-                    <p>I can take care of your pitch</p>
-                </li>
-                <li>
-                    <img src="./images/women.png" alt="women" />
-                    <p>I can prototype your app</p>
-                </li>
-                <li>
-                    <img src="./images/boy.png" alt="boy" />
-                    <p>I can take care of your pitch</p>
-                </li>
-                <li>
-                    <img src="./images/man.png" alt="man" />
-                    <p>I can help marketing strategy</p>
-                </li>
-            </ul>
-            <button type="button">Contact our expert</button>
+        <section class="process">
+            <div class="container">
+                <h2 class="process-title">Quick & Easy Process</h2>
+                <p class="process-descr">
+                    Do you require some help for your project: Conception workshop, prototyping, marketing
+                    strategy, landing page, Ux/UI?
+                </p>
+                <ul class="process-list">
+                    <li class="process-list-item">
+                        <img src="./images/girl.png" alt="girl" width="98" />
+                        <p class="process-item-descr">I can take care of your pitch</p>
+                    </li>
+                    <li class="process-list-item">
+                        <img src="./images/women.png" alt="women" width="98" />
+                        <p class="process-item-descr">I can prototype your app</p>
+                    </li>
+                    <li class="process-list-item">
+                        <img src="./images/boy.png" alt="boy" width="98" />
+                        <p class="process-item-descr">I can take care of your pitch</p>
+                    </li>
+                    <li class="process-list-item">
+                        <img src="./images/man.png" alt="man" width="98" />
+                        <p class="process-item-descr">I can help marketing strategy</p>
+                    </li>
+                </ul>
+                <button type="button" class="process-btn">Contact our expert</button>
+            </div>
         </section>
         <section>
             <h2>Contents Strategies</h2>
