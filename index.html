@@ -523,40 +523,50 @@
         <!-- #endregion clients -->
 
         <!-- #region promo -->
-        <section>
-            <h2 hidden>Promo</h2>
-            <p>Join 100 Compannies who boost their business with Product</p>
-            <button>Get this</button>
-            <img src="./images/promo.png" alt="promo" />
+        <section class="promo">
+            <div class="container">
+                <div class="promo-wrap">
+                    <h2 hidden>Promo</h2>
+                    <p class="promo-descr">Join 100 Compannies who boost their business with Product</p>
+                    <button type="button" class="promo-btn">Get this</button>
+                </div>
+                <img src="./images/promo.png" alt="promo" />
+            </div>
         </section>
         <!-- #endregion promo-->
     </main>
     <!-- #region footer -->
-
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="logo-header">
-                <img src="./images/logo.svg" alt="logo" />Product</a>
+            <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" />Product</a>
             <div class="footer-container">
-                <p>Resource</p>
-                <ul>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Blog </a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">FAQ</a></li>
+                <p class="footer-resourses">Resource</p>
+                <ul class="footer-resourses-list">
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link">About Us</a>
+                    </li>
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link"> Blog </a>
+                    </li>
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link">Contact</a>
+                    </li>
+                    <li class="footer-resourses-item"><a href="" class="footer-resourses-link">FAQ</a></li>
                 </ul>
             </div>
-            <div>
-                <p>Legal Stuff</p>
-                <ul>
-                    <li><a href="">Disclaimer</a></li>
-                    <li><a href="">Financing</a></li>
-                    <li><a href="">Privacy Policy</a></li>
+            <div class="footer-container">
+                <p class="footer-stuff">Legal Stuff</p>
+                <ul class="footer-stuff-list">
+                    <li class="footer-stuff-item"><a href="" class="footer-stuff-link">Disclaimer</a></li>
+                    <li class="footer-stuff-item"><a href="" class="footer-stuff-link">Financing</a></li>
+                    <li class="footer-stuff-item">
+                        <a href="" class="footer-stuff-link">Privacy Policy</a>
+                    </li>
                 </ul>
             </div>
-            <div>
-                <p>Knowing you're always on the best energy deal.</p>
-                <form>
+            <div class="footer-container">
+                <p class="footer-form-title">knowing you're always on the best energy deal.</p>
+                <form class="footer-form">
                     <label for="user-tel"></label>
                     <input type="tel" id="user-tel" name="tel" placeholder="Enter your phone number" />
                     <button type="submit">Sign up Now</button>
