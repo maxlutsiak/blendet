@@ -2,28 +2,132 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resourses</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo.svg" alt="logo">Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./resourses.html">Resourses</a></li>
+    <!-- #region header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" />Product</a>
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item">
+                        <a href="./index.html" class="header-nav-list-link current">Product</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="./pricing.html" class="header-nav-list-link">Pricing</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="./customers.html" class="header-nav-list-link">Customers</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="./resourses.html" class="header-nav-list-link">Resources</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-btn-list">
+                <li class="header-btn-list-item">
+                    <button type="button" class="header-btn-list-sign-in">Sign In</button>
+                </li>
+                <li class="header-btn-list-item">
+                    <button type="button" class="header-btn-list-sign-up">Sign Up</button>
+                </li>
             </ul>
-        </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
+        </div>
     </header>
+    <!-- #endregion header -->
+
+    <main>
+        <div class="container">
+            <iframe class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.5691259616633!2d30.522361265341!3d50.438525460087476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cefe0307e81f%3A0x1f234c3b0a0b492!2z0JPRg9C70ZbQstC10YA!5e0!3m2!1suk!2sua!4v1754726881358!5m2!1suk!2sua"
+                width="871" height="323" style="border-radius: 48px; border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="form-container">
+                <h3 class="form-title">Send a message</h3>
+                <form class="contact-form">
+                    <div class="contact-form-area">
+                        <label for="user-name"></label><input type="text" id="user-name" placeholder="Your Name"
+                            name="name" class="contact-form-input" />
+                    </div>
+                    <div class="contact-form-area">
+                        <label for="user-email"></label><input type="email" id="user-email" placeholder="Your Email"
+                            name="email" class="contact-form-input" />
+                    </div>
+                    <div class="contact-form-area">
+                        <label for="comment"></label><textarea id="comment" name="comment" placeholder="Your message"
+                            class="contact-form-comment"></textarea>
+                    </div>
+                    <button type="submit" class="contact-form-btn">Send</button>
+                </form>
+            </div>
+        </div>
+        <!-- #region promo -->
+        <section class="promo">
+            <div class="container">
+                <div class="promo-wrap">
+                    <h2 hidden>Promo</h2>
+                    <p class="promo-descr">Join 100 Compannies who boost their business with Product</p>
+                    <button type="button" class="promo-btn">Get this</button>
+                </div>
+                <img src="./images/promo.png" alt="promo" />
+            </div>
+        </section>
+        <!-- #endregion promo-->
+    </main>
+    <!-- #region footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" />Product</a>
+            <div class="footer-container">
+                <p class="footer-resourses">Resource</p>
+                <ul class="footer-resourses-list">
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link">About Us</a>
+                    </li>
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link"> Blog </a>
+                    </li>
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link">Contact</a>
+                    </li>
+                    <li class="footer-resourses-item"><a href="" class="footer-resourses-link">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <p class="footer-stuff">Legal Stuff</p>
+                <ul class="footer-stuff-list">
+                    <li class="footer-stuff-item"><a href="" class="footer-stuff-link">Disclaimer</a></li>
+                    <li class="footer-stuff-item"><a href="" class="footer-stuff-link">Financing</a></li>
+                    <li class="footer-stuff-item">
+                        <a href="" class="footer-stuff-link">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <p class="footer-form-title">knowing you're always on the best energy deal.</p>
+                <form class="footer-form">
+                    <label for="user-tel"></label>
+                    <input type="tel" id="user-tel" name="tel" placeholder="Enter your phone number" />
+                    <button type="submit">Sign up Now</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- #endregion footer -->
 </body>
 
 </html>

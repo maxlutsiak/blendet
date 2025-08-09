@@ -2,180 +2,107 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Customers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
-<!-- body -->
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo.svg" alt="logo">Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./resourses.html">Resourses</a></li>
-            </ul>
-        </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
-    </header>
-    <!-- main -->
-    <main>
-        <section>
-            <h1>Our Clients</h1>
-            <ul>
-                <li>
-                    <img src="./images/airbnb.svg" alt="airbnb">
-                </li>
-                <li>
-                    <img src="./images/google.svg" alt="google">
-                </li>
-                <li>
-                    <img src="./images/microsoft.svg" alt="microsoft">
-                </li>
-                <li>
-                    <img src="./images/fedEx.svg" alt="fedEx">
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Why Choose Product?</h2>
-            <ul>
-                <li>
-                    <img src="./images/cursor_customer.svg" alt="Cursor">
-                    <h3>Special Business</h3>
-                    <p>
-                        Product helps you see how many more days you need to work to reach your financial goal for the
-                        month and year.
-                    </p>
-                </li>
-                <li>
-                    <img src="./images/blue_icon.svg" alt="Blue_icon">
-                    <h3>Instant Result</h3>
-                    <p>
-                        Product helps you see how many more days you need to work to reach your financial goal for the
-                        month and year.
-                    </p>
-                </li>
-                <li>
-                    <img src="./images/heart_customer.svg" alt="Heart">
-                    <h3>Fastest way to organize</h3>
-                    <p>
-                        Product helps you see how many more days you need to work to reach your financial goal for the
-                        month and year.
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>How Product Work?</h2>
-            <div>
-                <p>STEP 1</p>
-                <h3>Apply for a product</h3>
-                <p>
-                    Completing our easy step-by-step application form gives you access to multiple businesses with
-                    multiple products. We analyse your business through our proprietary credit analysis technology.
-                </p>
-                <img src="./images/mac1.png" alt="Mac-1">
-            </div>
-        </section>
-        <section>
-            <div>
-                <p>STEP 2</p>
-                <h3>Apply for a product</h3>
-                <p>
-                    Product will contactting you instantly to receive payment of the Application Fee. if no offer of
-                    product is available,
-                    your fee will be fully refunded.
-                </p>
-                <img src="./images/mac2.png" alt="Mac-2">
-            </div>
-        </section>
-        <section>
-            <div>
-                <p>STEP 3</p>
-                <h3>Apply for a product</h3>
-                <p>
-                    Product will continue to liase between borrower and manager to procees and complete a quick and
-                    efficient settlement
-                </p>
-                <img src="./images/mac3.png" alt="Mac-3">
-            </div>
-            <button type="button">Get in touch with us</button>
-        </section>
-        <section>
-            <h2>Join thousands of others who have already received offers</h2>
-            <ul>
-                <li>
-                    <img src="./images/placeholder.png" alt="placeholder">
-                    <h3>Business</h3>
-                    <ul>
-                        <li>Cash Flow</li>
-                        <li>Asset Backed</li>
-                        <li>Receivables Finance</li>
-                        <li><span>Find the best business product</span></li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./images/placeholder-2.png" alt="placeholder-2">
-                    <h3>Enterprise</h3>
-                    <ul>
-                        <li>Site Acquisition</li>
-                        <li>Bridge</li>
-                        <li>Development Financing</li>
-                        <li><span>Find the best enterprise product</span></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <img src="./images/frame-16.png" alt="frame-16">
-        </section>
-    </main>
-    <!-- footer -->
-    <footer>
-        <div>
-            <div>
-                <a href="./index.html"><img src="./images/logo.svg" alt="logo" />Product</a>
-                <ul>
-                    <li>
-                        <a href="#"><img src="./images/instagram.svg" alt="instagram" /></a>
+    <!-- #region header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" />Product</a>
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item">
+                        <a href="./index.html" class="header-nav-list-link current">Product</a>
                     </li>
-                    <li>
-                        <a href="#"><img src="./images/facebook.svg" alt="facebook" /></a>
+                    <li class="header-nav-list-item">
+                        <a href="./pricing.html" class="header-nav-list-link">Pricing</a>
                     </li>
-                    <li>
-                        <a href="#"><img src="./images/twitter.svg" alt="twitter" /></a>
+                    <li class="header-nav-list-item">
+                        <a href="./customers.html" class="header-nav-list-link">Customers</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="./resourses.html" class="header-nav-list-link">Resources</a>
                     </li>
                 </ul>
-            </div>
-            <div>
-                <h3>Resource</h3>
-                <ul>
-                    <li>About Us</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li>FAQ</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Legal Stuff</h3>
-                <ul>
-                    <li>Disclaimer</li>
-                    <li>Financing</li>
-                    <li>Privacy Policy</li>
-                </ul>
-            </div>
+            </nav>
+            <ul class="header-btn-list">
+                <li class="header-btn-list-item">
+                    <button type="button" class="header-btn-list-sign-in">Sign In</button>
+                </li>
+                <li class="header-btn-list-item">
+                    <button type="button" class="header-btn-list-sign-up">Sign Up</button>
+                </li>
+            </ul>
         </div>
-        <div>
-            <p>Made With Love By Figmaland All Right Reserved</p>
+    </header>
+    <!-- #endregion header -->
+    <main>
+        <!-- #region promo -->
+        <section class="promo">
+            <div class="container">
+                <div class="promo-wrap">
+                    <h2 hidden>Promo</h2>
+                    <p class="promo-descr">Join 100 Compannies who boost their business with Product</p>
+                    <button type="button" class="promo-btn">Get this</button>
+                </div>
+                <img src="./images/promo.png" alt="promo" />
+            </div>
+        </section>
+        <!-- #endregion promo-->
+    </main>
+    <!-- #region footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" />Product</a>
+            <div class="footer-container">
+                <p class="footer-resourses">Resource</p>
+                <ul class="footer-resourses-list">
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link">About Us</a>
+                    </li>
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link"> Blog </a>
+                    </li>
+                    <li class="footer-resourses-item">
+                        <a href="" class="footer-resourses-link">Contact</a>
+                    </li>
+                    <li class="footer-resourses-item"><a href="" class="footer-resourses-link">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <p class="footer-stuff">Legal Stuff</p>
+                <ul class="footer-stuff-list">
+                    <li class="footer-stuff-item"><a href="" class="footer-stuff-link">Disclaimer</a></li>
+                    <li class="footer-stuff-item"><a href="" class="footer-stuff-link">Financing</a></li>
+                    <li class="footer-stuff-item">
+                        <a href="" class="footer-stuff-link">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <p class="footer-form-title">knowing you're always on the best energy deal.</p>
+                <form class="footer-form">
+                    <label for="user-tel"></label>
+                    <input type="tel" id="user-tel" name="tel" placeholder="Enter your phone number" />
+                    <button type="submit">Sign up Now</button>
+                </form>
+            </div>
         </div>
     </footer>
+    <!-- #endregion footer -->
 </body>
 
 </html>
