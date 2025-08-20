@@ -678,6 +678,9 @@ img {
 }
 
 .price-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 8px;
     width: 322px;
     height: 456px;
@@ -698,6 +701,7 @@ img {
 
 
 .price-item-title {
+    margin-bottom: 8px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -709,6 +713,7 @@ img {
 
 
 .price-item-title-descr {
+    margin-bottom: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -734,6 +739,7 @@ img {
     display: flex;
     gap: 10px;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .price-valute {
@@ -759,7 +765,12 @@ img {
     color: #e0e0e0;
 }
 
-.price-list-points {}
+.price-list-points {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
 
 .price-points-item {
     font-family: "Montserrat", sans-serif;
@@ -957,33 +968,119 @@ img {
 
 /* #region footer */
 
-.footer {}
+.footer {
+    padding: 50px 50px;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: space-between;
+}
 
 .container {}
 
+.footer-wrap {}
+
 .logo-header {}
 
-.footer-container {}
+.footer-logo {}
 
-.footer-resourses {}
+.footer-container {
+}
 
-.footer-resourses-list {}
+.footer-resourses {
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 30px; */
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.footer-resourses-list {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 35px; */
+    line-height: 2.1875;
+}
+
+.footer-resourses-list a:visited {
+    color: #22343d;;
+}
 
 .footer-resourses-item {}
 
 .footer-resourses-link {}
 
-.footer-stuff {}
+.footer-stuff {
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 30px; */
+    line-height: 1.5;
+}
 
-.footer-stuff-list {}
+.footer-stuff-list {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 35px; */
+    line-height: 2.1875;
+    color: #22343d;
+}
+
+.footer-stuff-list a:visited {
+    color: #22343d;
+}
 
 .footer-stuff-item {}
 
 .footer-stuff-link {}
 
-.footer-form-title {}
+.footer-form-title {
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 30px; */
+    line-height: 1.5;
+    color: #22343d;
+}
 
 .footer-form {}
+
+.svg-footer {
+    
+}
+
+.footer-form-input {
+    width: 325px;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.footer-form-btn {
+    width: 131px;
+    height: 39px;
+    background-color: #02897a;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-form-btn:hover {
+    background-color: #02766d;
+}
+
+.footer-very-bottom {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 30px; */
+    line-height: 1.875;
+    color: #22343d;
+}
 
 /* #endregion footer*/
 
