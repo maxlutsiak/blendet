@@ -539,6 +539,20 @@
     <footer class="footer">
         <div class="container footer-wrap">
             <a href="./index.html" class="logo-header footer-logo"><img src="./images/logo.svg" alt="logo" />Product</a>
+            <!--
+            <ul class="social-networks-list">
+                <li class="social-networks-item">
+                    <a class="social-networks-link" href="./images/icons.svg#icon-instagram"></a>
+                </li>
+                <li class="social-networks-item">
+                    <a class="social-networks-link" href="./images/icons.svg#icon-facebook"></a>
+                </li>
+                <li class="social-networks-item">
+                    <a class="social-networks-link" href="./images/icons.svg#icon-twitter"></a>
+                </li>
+            </ul>
+            -->
+
             <div class="footer-container">
                 <p class="footer-resourses">Resource</p>
                 <ul class="footer-resourses-list">
@@ -567,16 +581,21 @@
             <div class="footer-container">
                 <p class="footer-form-title">knowing you're always on the best energy deal.</p>
                 <form class="footer-form">
-                    <label for="user-tel"></label>
+                    <label for="user-tel" class="input-wrapper">
+                        <svg class="svg-form" width="18" height="28">
+                            <use href="./images/icons.svg#icon-mobile-screen-1" />
+                        </svg>
+                    </label>
                     <input class="footer-form-input" type="tel" id="user-tel" name="tel"
                         placeholder="Enter your phone number" />
                     <button class="footer-form-btn" type="submit">Sign up Now</button>
                 </form>
             </div>
         </div>
-        <div class="footer-very-bottom">
-            <p>Made With Love By Figmaland All Right Reserved</p>
-        </div>
+        <p class="footer-very-bottom">
+            Made With Love By Figmaland All Right Reserved
+        </p>
+
     </footer>
     <!-- #endregion footer -->
 </body>
