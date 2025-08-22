@@ -132,8 +132,260 @@ img {
 
 /* #endregion header */
 
-/* #region hero */
+/* Customers start*/
 
+/* #region header */
+
+.hero-customers .container {
+    padding-top: 100px;
+    padding-bottom:  117px;
+}
+
+.hero-title-customers {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #22343d;
+}
+
+.hero-customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 50px;
+}
+
+/* #endregion header customers */
+
+/* #region product */
+
+.product {
+    padding-top: 24px;
+    padding-bottom: 68px;
+    background-color: #f5f5f5;;
+}
+
+.product-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #22343d;
+}
+
+.product-list {
+    display: flex;
+    gap: 30px;
+}
+
+.product-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    width: 350px;
+    height: 305px;
+}
+
+.product-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.product-item-title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375;
+    letter-spacing: 0em;
+    color: #22343d;
+}
+
+.product-item-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6875;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    text-align: center;
+    max-width: 275px;
+    max-height: 108px;
+}
+
+/* #enregion product */
+
+/* region work */
+
+.work {
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+
+.work-descr-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 170px;
+    margin-bottom: 100px;
+}
+
+.work-list {
+    display: flex;
+    align-items: center;
+}
+
+.work-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 70px;
+}
+
+.work-number {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343d;
+}
+
+.work-subtitle {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+}
+
+.work-descr {
+    width: 438px;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 28px; */
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.work-descr-wrap.reverse {
+    flex-direction: row;
+    gap: 170px;
+}
+
+.work-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #02897a;
+}
+
+.work-btn:hover {
+    color: #02897a;
+    background: #fff;
+    border: 2px dashed #02897a;
+}
+
+/* #endregion work */
+
+/* #region join */
+
+.join {
+    padding-bottom: 100px;
+}
+
+.join-title {
+    margin-bottom: 90px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+}
+
+.join-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.join-list {
+    width: calc((100% - 40px) / 2);
+    max-width: 400px;
+    text-align: center;
+}
+
+.join-list-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.77778;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.join-list-icon,
+.join-list-icon-business {
+    width: 150px;
+    height: 150px;
+    background-color: #ffe0ea;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 27px;
+}
+
+.join-list-icon-business {
+    background-color: #e3f3fd;
+}
+
+.svg-tick {
+    width: 70px;
+    height: 70px;
+}
+
+.join-list-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16667;
+    color: #000;
+    margin-bottom: 27px;
+}
+
+.join-list-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.77778;
+    color: #22343d;
+}
+
+.join-list-item-find {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #000;
+}
+
+/* enregion join */
+
+/* Customers finish*/
+
+/* #region hero */
 
 .hero {
     padding-top: 25px;
