@@ -385,6 +385,156 @@ img {
 
 /* Customers finish*/
 
+/* Pricing start */
+
+.pricing-wrap {
+    padding: 50px 0 100px;
+}
+
+.pricing-title-wrap {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.pricing-title-wrapper {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 16px;
+}
+
+.pricing-descr-wrap {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 50px;
+}
+
+/* region enterprise */
+
+.enterprise {
+    padding: 50px 0 50px;
+}
+
+.enterprise-descr {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.enterprise-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.enterprise-descr-wrap {
+    font-weight: 400;
+    font-size: 18px;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.enterprise-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    background-color: #02897a;
+}
+
+.enterprise-btn:hover {
+    color: #02897a;
+    background: #fff;
+    border: 2px dashed #02897a;
+}
+
+/* endregion enterprise */
+
+/* region effects alongsite */
+
+.effects {
+    padding: 100px 0;
+}
+
+.effects-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 80px;
+}
+
+.effects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.effects-item {
+    display: flex;
+    align-items: baseline;
+    column-gap: 14px;
+    flex-wrap: wrap;
+}
+
+.effects-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.icon-box-effects {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f5f7;
+    border-radius: 100px;
+}
+
+.effects-subtitle {
+    display: flex;
+    gap: 14px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22343d;
+}
+
+.effects-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    text-align: left;
+    margin-top: 11px;
+}
+
+/* endregion effects alongsite */
+
+/* Pricing finish */
+
+
+
 /* #region hero */
 
 .hero {
@@ -1487,13 +1637,16 @@ img {
 
 /* #region details */
 
-.question {}
+.question {
+    padding: 50px 0 100px;
+}
 
 .question-title {
     font-weight: 700;
     font-size: 34px;
     color: #22343d;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .question-descr {
@@ -1501,6 +1654,7 @@ img {
     font-weight: 400;
     font-size: 18px;
     color: #22343d;
+    margin-bottom: 50px;
 }
 
 .question-list {}
@@ -1558,7 +1712,7 @@ details[open] .icon.minus {
     font-size: 1.2em;
     display: flex;
     align-items: center;
-
+    margin-bottom: 14px;
     font-weight: 500;
     font-size: 18px;
     color: #22343d;
