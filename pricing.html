@@ -330,8 +330,35 @@
     <!-- #region footer -->
 
     <footer class="footer">
-        <div class="container">
-            <a href="./index.html" class="logo-header"><img src="./images/logo.svg" alt="logo" />Product</a>
+        <div class="container footer-wrap">
+            <div class="">
+                <a href="./index.html" class="logo-header footer-logo"><img src="./images/logo.svg" alt="logo"
+                        width="40" height="36" />Product</a>
+                <ul class="social-networks-list">
+                    <li class="social-networks-item">
+                        <a class="social-networks-link" href="" target="_blank">
+                            <svg class="social-list-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks-item">
+                        <a class="social-networks-link" href="" target="_blank">
+                            <svg class="social-list-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks-item">
+                        <a class="social-networks-link" href="" target="_blank">
+                            <svg class="social-list-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
             <div class="footer-container">
                 <p class="footer-resourses">Resource</p>
                 <ul class="footer-resourses-list">
@@ -339,7 +366,7 @@
                         <a href="" class="footer-resourses-link">About Us</a>
                     </li>
                     <li class="footer-resourses-item">
-                        <a href="" class="footer-resourses-link"> Blog </a>
+                        <a href="" class="footer-resourses-link">Blog</a>
                     </li>
                     <li class="footer-resourses-item">
                         <a href="" class="footer-resourses-link">Contact</a>
@@ -360,12 +387,21 @@
             <div class="footer-container">
                 <p class="footer-form-title">knowing you're always on the best energy deal.</p>
                 <form class="footer-form">
-                    <label for="user-tel"></label>
-                    <input type="tel" id="user-tel" name="tel" placeholder="Enter your phone number" />
-                    <button type="submit">Sign up Now</button>
+                    <label for="user-tel" class="input-wrapper">
+                        <svg class="svg-form" width="18" height="28">
+                            <use href="./images/icons.svg#icon-mobile-screen-1" />
+                        </svg>
+                    </label>
+                    <input class="footer-form-input" type="tel" id="user-tel" name="tel"
+                        placeholder="Enter your phone number" />
+                    <button class="footer-form-btn" type="submit">Sign up Now</button>
                 </form>
             </div>
         </div>
+        <p class="footer-very-bottom">
+            Made With Love By Figmaland All Right Reserved
+        </p>
+
     </footer>
     <!-- #endregion footer -->
 </body>

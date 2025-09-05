@@ -52,23 +52,30 @@
     <main>
         <!-- #region hero -->
         <section class="hero">
-            <div class="container">
-                <div class="hero-wrap">
-                    <h1 class="hero-title">Work at the speed of thought</h1>
-                    <p class="hero-title-descr">
-                        Tools, tutorials, design and innovation experts, all in one place! The most intuitive
-                        way to imagine your next user experience.
+            <div class="container hero-container">
+                <div class="hero-addisional-container">
+                    <h1 class="main-title">Work at the speed of thought</h1>
+                    <p class="hero-text">
+                        Tools, tutorials, design and innovation experts, all in one place!
+                        The most intuitive way to imagine your next user experience.
                     </p>
                     <ul class="hero-btn-list">
                         <li class="hero-btn-list-item">
-                            <button type="button" class="hero-btn-get">Get started</button>
+                            <button class="btn hero-btn-get-started" type="button">
+                                Get started
+                            </button>
                         </li>
                         <li class="hero-btn-list-item">
-                            <button type="button" class="hero-btn-watch">Watch the Video</button>
+                            <button class="hero-btn-watch" type="button">
+                                <svg class="hero-btn-watch-icon" width="20" height="18">
+                                    <use href="./images/icons.svg#triangle"></use>
+                                </svg>
+                                Watch the Video
+                            </button>
                         </li>
                     </ul>
                 </div>
-                <img src="./images/hero-img.png" alt="hero-img" width="610" />
+                <img class="hero-img" src="./images/hero-img.png" alt="people use phone" width="610" height="555" />
             </div>
         </section>
         <!-- #endregion  hero-->
@@ -538,21 +545,34 @@
     <!-- #region footer -->
     <footer class="footer">
         <div class="container footer-wrap">
-            <a href="./index.html" class="logo-header footer-logo"><img src="./images/logo.svg" alt="logo" />Product</a>
-            <!--
-            <ul class="social-networks-list">
-                <li class="social-networks-item">
-                    <a class="social-networks-link" href="./images/icons.svg#icon-instagram"></a>
-                </li>
-                <li class="social-networks-item">
-                    <a class="social-networks-link" href="./images/icons.svg#icon-facebook"></a>
-                </li>
-                <li class="social-networks-item">
-                    <a class="social-networks-link" href="./images/icons.svg#icon-twitter"></a>
-                </li>
-            </ul>
-            -->
+            <div class="">
+                <a href="./index.html" class="logo-header footer-logo"><img src="./images/logo.svg" alt="logo"
+                        width="40" height="36" />Product</a>
+                <ul class="social-networks-list">
+                    <li class="social-networks-item">
+                        <a class="social-networks-link" href="" target="_blank">
+                            <svg class="social-list-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks-item">
+                        <a class="social-networks-link" href="" target="_blank">
+                            <svg class="social-list-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks-item">
+                        <a class="social-networks-link" href="" target="_blank">
+                            <svg class="social-list-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
 
+            </div>
             <div class="footer-container">
                 <p class="footer-resourses">Resource</p>
                 <ul class="footer-resourses-list">
